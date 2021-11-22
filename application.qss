@@ -1,0 +1,99 @@
+QWidget {
+	/* background: rgb(75, 75, 150);*/
+	color: black;
+	padding: 2px 6px;
+	border-radius: 10px;
+	border-width: 2px; 
+	border-color: beige;
+	font: bold 12px;
+}
+
+QMenuBar {
+	background: #6666FF;
+	border-radius:5px;
+	/*border-style:outset;*/
+	border-width: 1px;
+	border-color: white;
+	font: bold 12px;
+}
+QBarSeries {
+	color: red;
+}
+QTabWidget::pane { /* The tab widget frame */
+    border-top: 2px solid #C2C7CB;
+    position: absolute;
+    top: -0.5em;
+}
+
+QTabWidget::tab-bar {
+    alignment: center;
+}
+
+/* Style the tab using the tab sub-control. Note that
+    it reads QTabBar _not_ QTabWidget */
+QTabBar::tab {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
+                                stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+    border: 2px solid #C4C4C3;
+    border-bottom-color: #C2C7CB; /* same as the pane color */
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    min-width: 8ex;
+    padding: 2px;
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #fafafa, stop: 0.4 #f4f4f4,
+                                stop: 0.5 #e7e7e7, stop: 1.0 #fafafa);
+}
+
+QTabBar::tab:selected {
+    border-color: #9B9B9B;
+    border-bottom-color: #a2a7aB; /* same as pane color */
+}
+
+QLineEdit, QLabel, QComboBox, QDateEdit, QPushButton {
+	/* border: 2px solid gray; */
+	border-radius: 10px;
+	padding: 2px 6px;
+	background: blue;
+	/* selection-background-color: red; */
+	border-style: outset;
+	border-width: 2px; 
+	border-color: beige;
+	font: bold 12px; 
+	min-width: 5em; 
+}
+
+QLabel {
+	min-width:6em;
+	/*text-align: center;*/
+}
+
+QPushButton#quitButton{
+	background-color: red;
+	color:black;
+}
+
+QMenu {
+	background-color: #0000FF; /* sets background of the menu */
+	border: 1px solid black;
+}
+
+QMenu::item {
+	/* sets background of menu item. set this to something non-transparent
+		if you want menu color and menu item color to be different */
+	background-color: transparent;
+}
+
+QMenu::item:selected { /* when user selects item using mouse or keyboard */
+	background-color: #AAAAFF;
+}
+
+
+QWidget#dataInput::investimentos {
+ 	color: red;
+	background-color:black;
+}

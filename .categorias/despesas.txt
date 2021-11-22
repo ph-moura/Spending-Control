@@ -1,0 +1,10 @@
+Habitação
+Alimentação
+Saúde
+Transporte
+Despesas Pessoais
+Educação e Trabalho
+Lazer
+Despesas Temporárias e Variáveis
+Outras Despesas
+

@@ -1,0 +1,5 @@
+<!DOCTYPE RCC><RCC version="1.0">
+	<qresource prefix="application">
+		<file>application.qss</file>
+	</qresource>
+</RCC>
