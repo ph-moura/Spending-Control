@@ -2,11 +2,11 @@
 Interface gráfica para controle de gastos, investimentos e receitas.
 
 
-![despesas](https://github.com/ph-moura/Spending-Control/blob/master/images/despesas.png)
+![despesas](https://github.com/ph-moura/Spending-Control/blob/main/images/despesas.png)
 
-![investimentos](https://github.com/ph-moura/Spending-Control/blob/master/images/investimentos.png)
+![investimentos](https://github.com/ph-moura/Spending-Control/blob/main/images/investimentos.png)
 
-![receitas](https://github.com/ph-moura/Spending-Control/blob/master/images/receitas.png)
+![receitas](https://github.com/ph-moura/Spending-Control/blob/main/images/receitas.png)
 
 
 
